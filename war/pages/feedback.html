@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>FeedBack</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+	<!-- Le styles -->
+    <link href="../assets/css/bootstrap.css" rel="stylesheet">
+    	<style type="text/css">
+    	  body {
+    	  	background-image:url("../assets/img/background.png");
+    	    padding-top: 60px;
+    	    padding-bottom: 40px;
+    	    margin:10px 10px 10px 10px;
+   		   }
+    	  .sidebar-nav {
+    	    padding: 9px 0;
+    	  }
+    	  .form-signin {
+        	max-width: 300px;
+        	padding: 19px 29px 29px;
+        	margin: 0 auto 20px;
+        	background-color: #fff;
+        	border: 1px solid #e5e5e5;
+        	-webkit-border-radius: 5px;
+           		-moz-border-radius: 5px;
+               		 border-radius: 5px;
+        	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+           		-moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+                	 box-shadow: 0 1px 2px rgba(0,0,0,.05);
+      }
+      .form-signin .form-signin-heading,
+      .form-signin .checkbox {
+        margin-bottom: 10px;
+      }
+      .form-signin input[type="text"],
+      .form-signin input[type="password"] {
+        font-size: 16px;
+        height: auto;
+        margin-bottom: 15px;
+        padding: 7px 9px;
+      }
+    </style>
+    <!-- Le styles -->
+    <link href="../assets/css/bootstrap.css" rel="stylesheet">
+    <link href="../assets/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="../assets/css/docs.css" rel="stylesheet">
+    <link href="../javascript/google-code-prettify/prettify.css" rel="stylesheet">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+	<link rel="shortcut icon" href="../assets/ico/favicon.png">
+  </head>
+
+  <body> 
+  <body>
+   <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container-fluid">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <div class="nav-collapse collapse">
+            <p class="navbar-text pull-right">
+              Вы зашли как <a href="#" class="navbar-link">Andrew Kosintsev</a>
+            </p>
+            <ul class="nav">
+            <li class="">
+            	<a href="../MyBrokenWheels.html">Главная</a>
+            </li>
+            <li class="">
+              <a href="#">Расширенный Поиск</a>
+            </li>
+            <li class="">
+                <a href="#">Подать объявление</a>
+            </li>
+            <li class="">
+                <a href="feedback.html">Обратная связь</a>
+            </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <form class="form-horizontal" id="registerHere" method='post' action=''>
+		<fieldset>
+			<legend>Ваши пожелания и предложения</legend>
+				<div class="control-group">
+					<label class="control-label">Ваш еmail адрес*</label>
+					<div class="controls">
+						<input type="text" class="input-xlarge" id="user_email" name="user_email" rel="popover" data-content="What’s your email address?" data-original-title="Email">
+					</div>
+				</div>
+				<div class="control-group">
+					<label class="control-label">Ваш Skype/ICQ № по желанию</label>
+					<div class="controls">
+						<input type="text" class="input-xlarge" id="user_name" name="user_name" rel="popover" data-content="Enter your first and last name." data-original-title="Full Name">
+					</div>
+				</div>
+				<div class="control-group">  
+            		<label class="control-label" for="textarea">Текст письма</label>  
+            		<div class="controls">  
+              			<textarea class="input-xlarge" id="textarea" rows="3"></textarea>  
+            		</div>  
+          		</div>  
+		</fieldset>
+	</form>
+	<form class="form-horizontal" id="registerSubmit">
+	<fieldset>
+	<div class="control-group">
+					<label class="control-label"></label>
+					<div class="controls">
+						<button type="submit" class="btn btn-success" >Отправить</button>
+					</div>
+				</div>
+		</fieldset>
+		</form>
+    </div> <!-- /container -->
+    
+     <!-- Footer
+    ================================================== -->
+    <footer class="footer">
+      <div class="container">
+        <p>Designed and built with <a href="http://github.com/twitter/bootstrap" target="_blank">Bootstrap</a> framework</p>
+        <p>Code licensed under <a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache License v2.0</a>.</p>
+        <ul class="footer-links">
+          <li><a href="http://vk.com/tonimontano">© 2013 Andrew Kosintsev My Broken Wheels</a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+    <script src="../javascript/jquery.js"></script>
+    <script src="../javascript/bootstrap-transition.js"></script>
+    <script src="../javascript/bootstrap-alert.js"></script>
+    <script src="../javascript/bootstrap-modal.js"></script>
+    <script src="../javascript/bootstrap-dropdown.js"></script>
+    <script src="../javascript/bootstrap-scrollspy.js"></script>
+    <script src="../javascript/bootstrap-tab.js"></script>
+    <script src="../javascript/bootstrap-tooltip.js"></script>
+    <script src="../javascript/bootstrap-popover.js"></script>
+    <script src="../javascript/bootstrap-button.js"></script>
+    <script src="../javascript/bootstrap-collapse.js"></script>
+    <script src="../javascript/bootstrap-carousel.js"></script>
+    <script src="../javascript/bootstrap-typeahead.js"></script>
+    <script src="../javascript/bootstrap-affix.js"></script>
+    <script src="../javascript/holder/holder.js"></script>
+    <script src="../javascript/google-code-prettify/prettify.js"></script>
+    <script src="../javascript/application.js"></script>
+  </body>
+</html>
